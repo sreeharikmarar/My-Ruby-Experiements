@@ -1,7 +1,9 @@
 class A
 
 end
- 
+
+puts A.new.inspect
+#ans : <A:0xa55fdd4>
 
 puts A.new.class
 #ans : A
