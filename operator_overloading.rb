@@ -1,23 +1,23 @@
 class ClassA
   attr_accessor :value
- def initialize(value)
- @value = value
- end
-def +(obj)
-  c = ClassA.new(self.value + obj.value)
-  return c
-end
+  def initialize(value)
+    @value = value
+  end
+  def +(obj)
+    c = ClassA.new(self.value + obj.value)
+    return c
+  end
 end
 
 class ClassB
   attr_accessor :value
- def initialize(value)
- @value = value
- end
-def +(obj)
-  c = ClassB.new(self.value + obj.value)
-  return c
-end
+  def initialize(value)
+    @value = value
+  end
+  def +(obj)
+    c = ClassB.new(self.value + obj.value)
+    return c
+  end
 end
 
 a = ClassA.new(10)
